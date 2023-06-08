@@ -1,6 +1,6 @@
 {
-    "name": "Finapp",
-    "short_name": "Finapp",
+    "name": "Simfusion",
+    "short_name": "Simfusion",
     "start_url": "index.html",
     "display": "standalone",
     "scope" : "/",

@@ -3,6 +3,7 @@
 @import url("src/splide/splide.min.css");
 @import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap");
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -18,14 +19,14 @@ body {
 }
 
 a {
-  color: #6236FF;
+  color: #fff;
   outline: 0 !important;
   text-decoration: none;
 }
 
 a:hover, a:active, a:focus {
   outline: 0 !important;
-  color: #6236FF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -96,7 +97,7 @@ a:hover, a:active, a:focus {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  color: #6236FF;
+  color: #fff;
   position: relative;
 }
 
@@ -133,11 +134,11 @@ a:hover, a:active, a:focus {
 }
 
 .appHeader.text-light {
-  color: #FFF;
+  color: black;
 }
 
 .appHeader.text-light .headerButton {
-  color: #FFF;
+  color: black;
 }
 
 .appHeader.bg-primary, .appHeader.bg-secondary, .appHeader.bg-success, .appHeader.bg-warning, .appHeader.bg-danger, .appHeader.bg-info, .appHeader.bg-light, .appHeader.bg-dark {
@@ -145,7 +146,7 @@ a:hover, a:active, a:focus {
 }
 
 .appHeader.bg-primary:before {
-  background: #6236FF !important;
+  background: #fff !important;
 }
 
 .appHeader.bg-secondary:before {
@@ -269,7 +270,7 @@ a:hover, a:active, a:focus {
   align-items: center;
   justify-content: center;
   border-radius: 200px;
-  background: #6236FF;
+  background: #fff;
 }
 
 .appBottomMenu .item .action-button.large {
@@ -299,13 +300,13 @@ a:hover, a:active, a:focus {
 }
 
 .appBottomMenu .item.active:before {
-  background: #6236FF;
+  background: #fff;
 }
 
 .appBottomMenu .item.active .icon,
 .appBottomMenu .item.active ion-icon,
 .appBottomMenu .item.active strong {
-  color: #6236FF !important;
+  color: #fff !important;
   font-weight: 500;
 }
 
@@ -469,7 +470,7 @@ a:hover, a:active, a:focus {
 
 .sidebar-balance {
   padding: 6px 16px;
-  background: #6236FF;
+  background: #fff;
 }
 
 .sidebar-balance .listview-title {
@@ -493,7 +494,7 @@ a:hover, a:active, a:focus {
   align-items: flex-start;
   justify-content: space-between;
   padding: 0px 16px 10px 16px;
-  background: #6236FF;
+  background: #fff;
 }
 
 .action-group .action-button {
@@ -1159,7 +1160,7 @@ blockquote.blockquote .blockquote-footer {
   right: 0;
   bottom: 0;
   z-index: 99999;
-  background: #6236FF;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1205,7 +1206,7 @@ body.animationGoBack:after {
   top: 0;
   bottom: 0;
   width: 100%;
-  background-color: #6236FF;
+  background-color: #fff;
   background-image: url("../img/loading-icon.png");
   background-repeat: no-repeat;
   background-size: 42px auto;
@@ -1240,7 +1241,7 @@ body.animationGoBack:after {
 
 .badge-primary,
 a.badge-primary {
-  background: #6236FF !important;
+  background: #fff !important;
 }
 
 .badge-secondary,
@@ -1495,7 +1496,7 @@ a.badge-dark {
 
 .image-listview > li .item .icon-box.transparent {
   font-size: 28px;
-  color: #6236FF;
+  color: #fff;
 }
 
 .image-listview > li .item .in {
@@ -1781,19 +1782,20 @@ a.badge-dark {
 }
 
 .btn-primary {
-  background: #6236FF !important;
-  border-color: #6236FF !important;
-  color: #FFFFFF !important;
+  background: #fff !important;
+  border-color: #fff !important;
+  color: black !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   background: #4e1dff !important;
   border-color: #4e1dff !important;
+  color: #FFFFFF !important;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  background: #6236FF;
-  border-color: #6236FF;
+  background: #fff;
+  border-color: #fff;
   opacity: 0.5;
 }
 
@@ -1867,7 +1869,7 @@ a.badge-dark {
 }
 
 .btn-link {
-  color: #6236FF !important;
+  color: #fff !important;
 }
 
 .btn-info {
@@ -1924,26 +1926,26 @@ a.badge-dark {
 
 .btn-outline-primary {
   background: transparent;
-  border-color: #6236FF;
-  color: #6236FF;
+  border-color: #fff;
+  color: #fff;
   transition: 0.2s all;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:active {
   background: rgba(98, 54, 255, 0.15) !important;
-  border-color: #6236FF !important;
-  color: #6236FF !important;
+  border-color: #fff !important;
+  color: #fff !important;
 }
 
 .btn-outline-primary.active {
-  background: #6236FF !important;
+  background: #fff !important;
   color: #FFF !important;
-  border-color: #6236FF !important;
+  border-color: #fff !important;
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #6236FF !important;
-  border-color: #6236FF !important;
+  color: #fff !important;
+  border-color: #fff !important;
   background: transparent !important;
   opacity: 0.5;
 }
@@ -2111,7 +2113,7 @@ a.badge-dark {
 .btn-text-primary {
   background: transparent;
   border-color: transparent;
-  color: #6236FF !important;
+  color: #fff !important;
   transition: 0.2s all;
 }
 
@@ -2122,12 +2124,12 @@ a.badge-dark {
 .btn-text-primary:active, .btn-text-primary.active {
   background: rgba(98, 54, 255, 0.15) !important;
   border-color: transparent !important;
-  color: #6236FF !important;
+  color: #fff !important;
 }
 
 .btn-text-primary.disabled, .btn-text-primary:disabled {
-  color: #6236FF !important;
-  border-color: #6236FF !important;
+  color: #fff !important;
+  border-color: #fff !important;
   background: transparent !important;
   opacity: 0.5;
 }
@@ -2302,8 +2304,8 @@ a.badge-dark {
 }
 
 .btn-check:checked + .btn-outline-primary {
-  background: #6236FF !important;
-  border-color: #6236FF !important;
+  background: #fff !important;
+  border-color: #fff !important;
 }
 
 .btn-check:checked + .btn-outline-secondary {
@@ -2441,7 +2443,7 @@ a.badge-dark {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #6236FF;
+  color: #fff;
 }
 
 .accordion .accordion-header.bg-primary .accordion-button, .accordion .accordion-header.bg-secondary .accordion-button, .accordion .accordion-header.bg-success .accordion-button, .accordion .accordion-header.bg-warning .accordion-button, .accordion .accordion-header.bg-danger .accordion-button, .accordion .accordion-header.bg-warning .accordion-button, .accordion .accordion-header.bg-info .accordion-button, .accordion .accordion-header.bg-dark .accordion-button {
@@ -2576,7 +2578,7 @@ a.badge-dark {
 }
 
 .action-button-list > li .btn.text-primary {
-  color: #6236FF !important;
+  color: #fff !important;
 }
 
 .action-button-list > li .btn.text-secondary {
@@ -2666,7 +2668,7 @@ a.badge-dark {
   font-size: 32px;
   width: 64px;
   height: 64px;
-  background: #6236FF;
+  background: #fff;
   color: #fff;
   display: inline-flex;
   border-radius: 200px;
@@ -2793,7 +2795,7 @@ a.badge-dark {
   line-height: 1em;
   margin-top: 30px;
   margin-bottom: -10px;
-  color: #6236FF;
+  color: #fff;
   text-align: center;
 }
 
@@ -2990,11 +2992,11 @@ a.badge-dark {
 }
 
 .bg-main {
-  background: #6236FF;
+  background: #fff;
 }
 
 .bg-primary {
-  background: #6236FF !important;
+  background: #fff !important;
   color: #FFF;
 }
 
@@ -3034,7 +3036,7 @@ a.badge-dark {
 
 .text-primary,
 a.text-primary {
-  color: #6236FF !important;
+  color: #fff !important;
 }
 
 .text-secondary,
@@ -3064,7 +3066,7 @@ a.text-info {
 
 .text-light,
 a.text-light {
-  color: #FFF !important;
+  color: black !important;
 }
 
 .text-dark,
@@ -3157,9 +3159,9 @@ a.text-dark {
 }
 
 .alert-primary {
-  background: #6236FF;
+  background: #fff;
   color: #fff;
-  border: 1px solid #6236FF;
+  border: 1px solid #fff;
 }
 
 .alert-primary a {
@@ -3177,26 +3179,26 @@ a.text-dark {
 
 .alert-outline-primary {
   background: transparent;
-  color: #6236FF;
-  border: 2px solid #6236FF;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .alert-outline-primary a {
-  color: #6236FF !important;
+  color: #fff !important;
   text-decoration: underline !important;
 }
 
 .alert-outline-primary .alert-title {
-  color: #6236FF;
+  color: #fff;
 }
 
 .alert-outline-primary .btn-close {
-  color: #6236FF;
+  color: #fff;
   opacity: 1;
 }
 
 .alert-outline-primary .btn-close:before, .alert-outline-primary .btn-close:after {
-  background: #6236FF;
+  background: #fff;
 }
 
 .alert-secondary {
@@ -3590,7 +3592,7 @@ textarea,
 }
 
 .form-group .input-wrapper.active .label {
-  color: #6236FF !important;
+  color: #fff !important;
 }
 
 .form-group.basic {
@@ -3612,8 +3614,8 @@ textarea,
 
 .form-group.basic .form-control:focus,
 .form-group.basic .custom-select:focus {
-  border-bottom-color: #6236FF;
-  box-shadow: inset 0 -1px 0 0 #6236FF;
+  border-bottom-color: #fff;
+  box-shadow: inset 0 -1px 0 0 #fff;
 }
 
 .form-group.basic .custom-select {
@@ -3807,7 +3809,7 @@ textarea,
 }
 
 .form-group.boxed .form-control:focus {
-  border-color: #6236FF;
+  border-color: #fff;
 }
 
 .form-group.boxed textarea.form-control {
@@ -3916,10 +3918,10 @@ textarea,
   border: 0 !important;
   border-bottom: 2px solid transparent !important;
   line-height: 1.2em;
-  width: 100%;
-  border-radius: 0;
+  width: 70%;
+  border-radius: 35px;
   padding: 6px 10px;
-  height: 50px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3936,9 +3938,9 @@ textarea,
 }
 
 .nav-tabs.lined .nav-item .nav-link.active {
-  color: #6236FF;
-  background: transparent;
-  border-bottom-color: #6236FF !important;
+  color: #fff;
+  background: blue;
+  border-bottom-color: #fff !important;
 }
 
 .form-check {
@@ -3994,8 +3996,8 @@ textarea,
 }
 
 .form-check-input:checked ~ .form-check-label:after {
-  background-color: #6236FF;
-  border-color: #6236FF !important;
+  background-color: #fff;
+  border-color: #fff !important;
 }
 
 .form-check-input:checked ~ .form-check-label:before {
@@ -4135,7 +4137,7 @@ textarea,
 }
 
 .message-item.user .bubble {
-  background: #6236FF !important;
+  background: #fff !important;
   color: #FFF;
   border-radius: 16px 16px 0 16px;
 }
@@ -4173,7 +4175,7 @@ textarea,
 }
 
 .progress-bar {
-  background: #6236FF;
+  background: #fff;
   height: 14px;
   line-height: 1em;
   display: flex;
@@ -4254,7 +4256,7 @@ textarea,
 }
 
 .chip-primary {
-  background: #6236FF !important;
+  background: #fff !important;
   color: #fff;
 }
 
@@ -4263,8 +4265,8 @@ textarea,
 }
 
 .chip-primary.chip-outline {
-  color: #6236FF !important;
-  box-shadow: inset 0 0 0 1px #6236FF !important;
+  color: #fff !important;
+  box-shadow: inset 0 0 0 1px #fff !important;
 }
 
 .chip-danger {
@@ -4816,7 +4818,7 @@ textarea,
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #6236FF !important;
+  color: #fff !important;
   font-size: 13px;
   border-right: 1px solid #DCDCE9;
   padding: 16px 6px;
@@ -5143,7 +5145,7 @@ textarea,
   content: "";
   display: block;
   height: 140px;
-  background: #6236FF;
+  background: #fff;
 }
 
 .wallet-card {
@@ -5176,7 +5178,7 @@ textarea,
   align-items: center;
   justify-content: center;
   line-height: 1em;
-  color: #6236FF;
+  color: #fff;
   background: rgba(98, 54, 255, 0.1);
   width: 50px;
   height: 64px;
@@ -5185,7 +5187,7 @@ textarea,
 }
 
 .wallet-card .balance .right .button:hover {
-  background: #6236FF !important;
+  background: #fff !important;
   color: #fff !important;
 }
 
@@ -5225,7 +5227,7 @@ textarea,
 }
 
 .wallet-card .wallet-footer .item .icon-wrapper {
-  background: #6236FF;
+  background: #fff;
   width: 48px;
   height: 48px;
   display: inline-flex;
@@ -5343,7 +5345,7 @@ textarea,
 .bill-box .img-wrapper .iconbox {
   width: 48px;
   height: 48px;
-  background: #6236FF;
+  background: #fff;
   border-radius: 10px;
   line-height: 1em;
   color: #fff;
@@ -5463,7 +5465,7 @@ textarea,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #6236FF;
+  background: #fff;
   font-size: 26px;
   color: #fff;
 }
@@ -5475,7 +5477,7 @@ textarea,
 .splash-page .iconbox {
   width: 72px;
   height: 72px;
-  background: #6236FF;
+  background: #fff;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -5528,7 +5530,7 @@ textarea,
 }
 
 .avatar-section .button {
-  background: #6236FF;
+  background: #fff;
   color: #fff;
   width: 32px;
   height: 32px;
@@ -5544,7 +5546,7 @@ textarea,
 
 .card-block {
   height: 220px;
-  background: #6236FF;
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
   color: #fff;
@@ -5683,8 +5685,9 @@ textarea,
 .gradientSection {
   position: relative;
   text-align: center;
-  background: #6236FF;
-  background-image: linear-gradient(-208deg, #6236FF 38%, #8a69ff 100%);
+  /* background: #fff; */
+  /* background-image: linear-gradient(-208deg, #fff 38%, #fff 100%); */
+  background-image: url('/Users/simfusionapple/Documents/GitHub/Arrow/assets/img/home-background.png');
 }
 
 .gradientSection .in {
@@ -5701,12 +5704,12 @@ textarea,
 
 .gradientSection .total {
   letter-spacing: -0.01em;
-  color: #fff;
+  color: black;
   font-size: 32px;
 }
 
 .gradientSection .caption {
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5809,7 +5812,7 @@ textarea,
   width: 64px;
   height: 64px;
   border-radius: 100px;
-  background: #6236FF;
+  background: #fff;
   font-size: 32px;
   color: #fff;
 }
@@ -6975,7 +6978,7 @@ body.dark-mode .accordion .accordion-header .accordion-button.collapsed:before {
 }
 
 body.dark-mode .accordion .accordion-header.bg-primary .accordion-button {
-  background: #6236FF !important;
+  background: #fff !important;
 }
 
 body.dark-mode .accordion .accordion-header.bg-secondary .accordion-button {
@@ -7113,7 +7116,7 @@ body.dark-mode .form-switch .form-check-label:before {
 }
 
 body.dark-mode .form-switch .form-check-input:checked ~ .form-check-label:after {
-  background: #6236FF !important;
+  background: #fff !important;
 }
 
 body.dark-mode .chip {
@@ -7237,7 +7240,7 @@ body.dark-mode .verification-input {
 }
 
 body.dark-mode .verification-input:focus {
-  border-color: #6236FF !important;
+  border-color: #fff !important;
 }
 
 body.dark-mode .input-group .input-group-text {
@@ -7272,7 +7275,7 @@ body.dark-mode .form-group.boxed .form-control {
 }
 
 body.dark-mode .form-group.boxed .form-control:focus {
-  border-color: #6236FF;
+  border-color: #fff;
 }
 
 body.dark-mode .message-divider {
@@ -7464,7 +7467,7 @@ body.dark-mode .nav-tabs.lined .nav-item .nav-link {
 }
 
 body.dark-mode .nav-tabs.lined .nav-item .nav-link.active {
-  color: #6236FF;
+  color: #fff;
 }
 
 body.dark-mode .timeline:before {
