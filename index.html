@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
 
+<style type="text/css">
+    .indexHead {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        position: relative;
+    }
+
+    .indexHead::before {
+        background-image: url('assets/img/home-background.png');
+        opacity: 0.2;
+        background-size: cover;
+        content: '';
+        position: absolute;
+        inset: 0;
+    }
+</style>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport"
@@ -97,9 +115,8 @@
     <!-- App Capsule -->
     <div id="appCapsule">
 
-
         <!-- Coin Status -->
-        <div class="section full gradientSection">
+        <div class="section full gradientSection" id="indexHead">
             <div class="in coin-head">
                 <h1 class="total">Today (kWh): 26.9</h1>
                 <br>
@@ -124,7 +141,7 @@
         <div class="section mb-2">
 
             <div class="card coin-chart">
-                <div class="card-body">
+                <div class="card-body chart">
                     <!-- tab content -->
                     <div class="tab-content">
 
@@ -147,14 +164,8 @@
                     </div>
                     <!-- * tab content -->
                 </div>
-            </div>
-        </div>
-        <!-- Coin Chart -->
 
-
-        <!-- Buttons -->
-        <div class="section">
-            <div class="card">
+                <!-- Buttons -->
                 <div class="card-body">
                     <ul class="nav nav-tabs lined" role="tablist">
                         <li class="nav-item">
@@ -174,11 +185,11 @@
                         </li>
                     </ul>
                 </div>
-
+                <!-- Buttons -->
             </div>
         </div>
-        <!-- Buttons -->
-
+        <!-- Coin Chart -->
+        
         <!-- Stats -->
         <div class="section mt-2 mb-4">
             <div class="card mt-2">
@@ -199,17 +210,17 @@
         <!-- Stats -->
 
         <!-- History -->
-        <div class="section mt-4">   
-          <h3 class="title">Last Update: Today 15:12:44 &nbsp;<ion-icon name="cloud-offline-outline"></ion-icon></h3>
-        </div>
+        <footer class="section mt-4 footer">   
+            <h3 class="title">Last Update: Today 15:12:44 &nbsp;<ion-icon name="cloud-offline-outline"></ion-icon></h3>
+        </footer>
         <!-- History -->
 
         <!-- app footer -->
-        <!-- <div class="appFooter">
+        <div class="appFooter">
             <div class="footer-title">
                 Copyright © Simfusion 2021. All Rights Reserved.
             </div>
-        </div> -->
+        </div>
         <!-- * app footer -->
 
     </div>
@@ -222,12 +233,12 @@
                 <ion-icon name="home"></ion-icon>
             </div>
         </a>
-        <a href="app-components.html" class="item">
+        <a href="dashboard.html" class="item">
             <div class="col">
                 <ion-icon name="flash"></ion-icon>
             </div>
         </a>
-        <a href="app-components.html" class="item">
+        <a href="profile.html" class="item">
             <div class="col">
                 <ion-icon name="person"></ion-icon>
             </div>
@@ -267,7 +278,10 @@
                 height: 200,
                 toolbar: {
                 show: false,
-                }
+                },
+                selection: {
+                    enabled: false
+                },
             },
             stroke: {
                 width: 2,

@@ -12,10 +12,12 @@ body {
   color: #958d9e;
   background: #EDEDF5;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -3996,7 +3998,7 @@ textarea,
 }
 
 .form-check-input:checked ~ .form-check-label:after {
-  background-color: #fff;
+  background-color: black;
   border-color: #fff !important;
 }
 
@@ -5687,7 +5689,6 @@ textarea,
   text-align: center;
   /* background: #fff; */
   /* background-image: linear-gradient(-208deg, #fff 38%, #fff 100%); */
-  background-image: url('/Users/simfusionapple/Documents/GitHub/Arrow/assets/img/home-background.png');
 }
 
 .gradientSection .in {
@@ -7652,4 +7653,14 @@ body.dark-mode.rtl-mode .notification-dialog.android-style .notification-footer 
 
 body.dark-mode .cookies-box {
   background: #20183b;
+}
+
+footer{
+  margin-top: auto;
+}
+
+.chart{
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
